@@ -61,11 +61,20 @@ h2 {
     text-align: center;
 }
 
-p {
+p, ul {
     font-size: 1.1rem;
     text-align: justify;
     max-width: 800px;
     margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
 }
 
 .video-container {
