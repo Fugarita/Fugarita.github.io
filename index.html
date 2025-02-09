@@ -3,26 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio di [Nome]</title>
+    <title>Stefano Bianco - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Benvenuto nel mio Portfolio</h1>
+        <div class="intro">
+            <h1>Stefano Bianco</h1>
+            <p>Calciatore, Studente, Lavoratore</p>
+        </div>
+        <!-- Foto subito dopo il titolo -->
+        <div class="hero-image">
+            <img src="images/Stefano.jpg" alt="Disgrazia all'eroe caduto" class="fade-in">
+        </div>
     </header>
+
     <section id="about">
         <h2>Chi Sono</h2>
-        <p>Breve descrizione di te e delle tue competenze.</p>
+        <p>
+            Sono uno studente delle scuole superiori con una grande passione per il calcio. 
+            Giocatore con anni di esperienza, ho militato in squadre come Treviso Calcio e Montebelluna Calcio. 
+            Purtroppo, una stella del calcio mancata, ma con la stessa determinazione e spirito di squadra che mi hanno sempre caratterizzato.
+        </p>
     </section>
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <div class="project">
-            <img src="images/progetto1.jpg" alt="Progetto 1">
-            <p>Descrizione del progetto 1.</p>
+
+    <section id="legend">
+        <h2>La Leggenda Decaduta</h2>
+        <div class="video-container">
+            <video controls class="fade-in">
+                <source src="images/StefanoVideo.mp4" type="video/mp4">
+                Il tuo browser non supporta il tag video.
+            </video>
         </div>
     </section>
+
     <footer>
-        <p>&copy; 2023 [Nome]</p>
+        <p>&copy; 2024 Stefano Bianco</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
